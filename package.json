@@ -1,6 +1,6 @@
 {
 "name" : "minj",
-"version" : "0.0.2",
+"version" : "0.0.3",
 "author" : "Ben Gourley",
 "description" : "A js minifier middleware for connect/express",
 "homepage" : "https://github.com/bengourley/minj",
