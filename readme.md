@@ -6,7 +6,7 @@ minj is a js minifier middleware for express / connect
 
 	$ npm install minj
 
-### Usage
+## Usage
 
 In your express/connect server setup, use as follows:
 
@@ -27,3 +27,18 @@ For debugging purposes, if you want to serve the source file instead of the mini
 	/javascripts/main.js?debug=true
 
 Uglify.js is used for minification.
+
+## Tests
+To run the tests, first install the expresso framework:
+
+	$ npm install expresso -g
+
+Then cd to the minj root, and run
+
+	$ expresso -I lib
+
+To see a code coverage report, rin
+
+	$expresso -I lib -c
+
+Current, code coverage is at 52.38. Please feel free to add tests to help increase this!
