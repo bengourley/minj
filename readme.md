@@ -37,7 +37,7 @@ Then cd to the minj root, and run
 
 	$ expresso -I lib
 
-To see a code coverage report, rin
+To see a code coverage report, run
 
 	$expresso -I lib -c
 
