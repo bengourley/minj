@@ -13,6 +13,6 @@
 "main" : "./index.js",
 "dependencies" :
 	{
-		"uglify-js" : "1.0.1"
+		"uglify-js" : "1.1.1"
 	}
 }
