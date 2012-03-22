@@ -1,5 +1,11 @@
 # minj
-	
+
+--------
+
+**minj is now unsupported. you should use serby/compact instead**
+
+---------
+
 minj is a js minifier middleware for express / connect
 
 ## Installation
@@ -15,9 +21,9 @@ In your express/connect server setup, use as follows:
 The src option will need to match the option you use with express/connect's static provider, which defaults to the example here.
 
 In your html, refer to your js path as normal e.g:
-		
+
 	<script src="/javascripts/main.js"></script>
-		
+
 The minified file is created dynamically adjacent to the original file with the extension .minj.js, so there's no need to keep restarting your server when developing. If the modified time of the source file is newer than that of the minified file, it will be re-minified.
 
 minj will assume that request for resources ending in .min.js or .minj.js are already minified, and will not attempt to minify them.
